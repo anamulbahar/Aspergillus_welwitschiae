@@ -1,2 +1,2 @@
-# Aspergillus_welwitschiae
+# BCSIR-Aspergillus-welwitschiae
 BCSIR Aspergillus welwitschiae
