@@ -1,0 +1,186 @@
+/root/.conda/envs/quast/bin/quast -t 30 -o quast -r GCA_030015405.1.fa -g GCA_030015405.1.gff GCA_003344945.1.fa GCA_009761105.1.fa GCA_012275225.1.fa GCA_012365075.1.fa GCA_023718355.1.fa GCA_030015405.1.fa
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-5.4.0-135-generic-x86_64-with-glibc2.27 (linux_64)
+  Python version: 3.10.6
+  CPUs number: 32
+
+Started: 2023-05-28 10:54:58
+
+Logging to /root/.local/ax/quast/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+
+CWD: /root/.local/ax
+Main parameters: 
+  MODE: default, threads: 30, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Reference:
+  /root/.local/ax/GCA_030015405.1.fa ==> GCA_030015405.1
+
+Contigs:
+  Pre-processing...
+  1  GCA_003344945.1.fa ==> GCA_003344945.1
+  2  GCA_009761105.1.fa ==> GCA_009761105.1
+  3  GCA_012275225.1.fa ==> GCA_012275225.1
+  4  GCA_012365075.1.fa ==> GCA_012365075.1
+  5  GCA_023718355.1.fa ==> GCA_023718355.1
+  6  GCA_030015405.1.fa ==> GCA_030015405.1
+
+2023-05-28 10:55:01
+Running Basic statistics processor...
+  Reference genome:
+    GCA_030015405.1.fa, length = 37795174, num fragments = 340, GC % = 49.38
+WARNING:   Reference genome is fragmented. You may consider rerunning QUAST using --fragmented option. QUAST will try to detect misassemblies caused by the fragmentation and mark them fake (will be excluded from # misassemblies).
+  Contig files: 
+    1  GCA_003344945.1
+    2  GCA_009761105.1
+    3  GCA_012275225.1
+    4  GCA_012365075.1
+    5  GCA_023718355.1
+    6  GCA_030015405.1
+  Calculating N50 and L50...
+    1  GCA_003344945.1, N50 = 757052, L50 = 17, auN = 788682.2, Total length = 37511876, GC % = 49.66, # N's per 100 kbp =  90.20
+    2  GCA_009761105.1, N50 = 456288, L50 = 23, auN = 640440.3, Total length = 38180955, GC % = 48.27, # N's per 100 kbp =  1.24
+    3  GCA_012275225.1, N50 = 319661, L50 = 36, auN = 375066.7, Total length = 38126481, GC % = 49.25, # N's per 100 kbp =  38.91
+    4  GCA_012365075.1, N50 = 183962, L50 = 60, auN = 222044.4, Total length = 37388807, GC % = 49.46, # N's per 100 kbp =  0.10
+    5  GCA_023718355.1, N50 = 603759, L50 = 20, auN = 687337.2, Total length = 36421613, GC % = 49.37, # N's per 100 kbp =  1.51
+    6  GCA_030015405.1, N50 = 5092470, L50 = 3, auN = 5109541.1, Total length = 37794437, GC % = 49.38, # N's per 100 kbp =  122.77
+  Drawing Nx plot...
+    saved to /root/.local/ax/quast/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /root/.local/ax/quast/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /root/.local/ax/quast/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /root/.local/ax/quast/basic_stats/GC_content_plot.pdf
+  Drawing GCA_003344945.1 GC content plot...
+    saved to /root/.local/ax/quast/basic_stats/GCA_003344945.1_GC_content_plot.pdf
+  Drawing GCA_009761105.1 GC content plot...
+    saved to /root/.local/ax/quast/basic_stats/GCA_009761105.1_GC_content_plot.pdf
+  Drawing GCA_012275225.1 GC content plot...
+    saved to /root/.local/ax/quast/basic_stats/GCA_012275225.1_GC_content_plot.pdf
+  Drawing GCA_012365075.1 GC content plot...
+    saved to /root/.local/ax/quast/basic_stats/GCA_012365075.1_GC_content_plot.pdf
+  Drawing GCA_023718355.1 GC content plot...
+    saved to /root/.local/ax/quast/basic_stats/GCA_023718355.1_GC_content_plot.pdf
+  Drawing GCA_030015405.1 GC content plot...
+    saved to /root/.local/ax/quast/basic_stats/GCA_030015405.1_GC_content_plot.pdf
+Done.
+
+2023-05-28 10:55:14
+Running Contig analyzer...
+  1  GCA_003344945.1
+  1  Logging to files /root/.local/ax/quast/contigs_reports/contigs_report_GCA_003344945-1.stdout and contigs_report_GCA_003344945-1.stderr...
+  2  GCA_009761105.1
+  2  Logging to files /root/.local/ax/quast/contigs_reports/contigs_report_GCA_009761105-1.stdout and contigs_report_GCA_009761105-1.stderr...
+  3  GCA_012275225.1
+  3  Logging to files /root/.local/ax/quast/contigs_reports/contigs_report_GCA_012275225-1.stdout and contigs_report_GCA_012275225-1.stderr...
+  4  GCA_012365075.1
+  4  Logging to files /root/.local/ax/quast/contigs_reports/contigs_report_GCA_012365075-1.stdout and contigs_report_GCA_012365075-1.stderr...
+  5  GCA_023718355.1
+  5  Logging to files /root/.local/ax/quast/contigs_reports/contigs_report_GCA_023718355-1.stdout and contigs_report_GCA_023718355-1.stderr...
+  6  GCA_030015405.1
+  6  Logging to files /root/.local/ax/quast/contigs_reports/contigs_report_GCA_030015405-1.stdout and contigs_report_GCA_030015405-1.stderr...
+  6  Aligning contigs to the reference
+  6  /root/.conda/envs/quast/bin/minimap2 -c -x asm10 -B5 -O4,16 --no-long-join -r \
+     200 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 5 quast/quast_corrected_input/GCA_030015405.1.fa quast/quast_corrected_input/GCA_030015405-1.fa \
+     > quast/contigs_reports/minimap_output/GCA_030015405-1.coords_tmp 2>> quast/contigs_reports/contigs_report_GCA_030015405-1.stderr
+  1  Using existing alignments... 
+  2  Using existing alignments... 
+  3  Using existing alignments... 
+  4  Using existing alignments... 
+  5  Using existing alignments... 
+  4  Analysis is finished.
+
+  3  Analysis is finished.
+
+  1  Analysis is finished.
+
+  5  Analysis is finished.
+
+  6  Analysis is finished.
+
+  2  Analysis is finished.
+
+  Creating total report...
+    saved to /root/.local/ax/quast/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /root/.local/ax/quast/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /root/.local/ax/quast/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /root/.local/ax/quast/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /root/.local/ax/quast/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2023-05-28 10:55:28
+Running NA-NGA calculation...
+  1  GCA_003344945.1, Largest alignment = 1332178, NA50 = 225632, NGA50 = 225383, LA50 = 45, LGA50 = 46
+  2  GCA_009761105.1, Largest alignment = 669313, NA50 = 96514, NGA50 = 97796, LA50 = 102, LGA50 = 100
+  3  GCA_012275225.1, Largest alignment = 538497, NA50 = 148446, NGA50 = 149303, LA50 = 74, LGA50 = 73
+  4  GCA_012365075.1, Largest alignment = 547803, NA50 = 165440, NGA50 = 164079, LA50 = 69, LGA50 = 71
+  5  GCA_023718355.1, Largest alignment = 1177966, NA50 = 175001, NGA50 = 163833, LA50 = 63, LGA50 = 67
+  6  GCA_030015405.1, Largest alignment = 9205284, NA50 = 5092470, NGA50 = 5092470, LA50 = 3, LGA50 = 3
+  Drawing cumulative plot...
+    saved to /root/.local/ax/quast/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /root/.local/ax/quast/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /root/.local/ax/quast/aligned_stats/NGAx_plot.pdf
+Done.
+
+2023-05-28 10:55:30
+Running Genome analyzer...
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  Loaded 10106 genomic features of type "ANY"
+  WARNING: Reference names in file with genomic features of type "ANY" do not match any chromosome. Check your genomic feature file(s).
+  1  GCA_003344945.1
+  2  GCA_009761105.1
+  3  GCA_012275225.1
+  4  GCA_012365075.1
+  5  GCA_023718355.1
+  6  GCA_030015405.1
+  2  Analysis is finished.
+  6  Analysis is finished.
+  1  Analysis is finished.
+  5  Analysis is finished.
+  3  Analysis is finished.
+  4  Analysis is finished.
+  Drawing genomic features cumulative plot...
+    saved to /root/.local/ax/quast/genome_stats/features_cumulative_plot.pdf
+  Drawing genomic features FRCurve plot...
+    saved to /root/.local/ax/quast/genome_stats/features_frcurve_plot.pdf
+  Drawing # complete genomic features histogram...
+    saved to /root/.local/ax/quast/genome_stats/complete_features_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /root/.local/ax/quast/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2023-05-28 10:55:47
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2023-05-28 10:55:54
+RESULTS:
+  Text versions of total report are saved to /root/.local/ax/quast/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /root/.local/ax/quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /root/.local/ax/quast/report.html
+  PDF version (tables and plots) is saved to /root/.local/ax/quast/report.pdf
+  Icarus (contig browser) is saved to /root/.local/ax/quast/icarus.html
+  Log is saved to /root/.local/ax/quast/quast.log
+
+Finished: 2023-05-28 10:55:54
+Elapsed time: 0:00:56.561642
+NOTICEs: 3; WARNINGs: 2; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

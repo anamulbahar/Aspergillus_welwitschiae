@@ -1,0 +1,7 @@
+Assembly	# misassemblies	  # contig misassemblies	    # c. relocations	    # c. translocations	    # c. inversions	  # scaffold misassemblies	    # s. relocations	    # s. translocations	    # s. inversions	# misassembled contigs	Misassembled contigs length	# local misassemblies	# scaffold gap ext. mis.	# scaffold gap loc. mis.	# unaligned mis. contigs	# mismatches	# indels	    # indels (<= 5 bp)	    # indels (> 5 bp)	Indels length
+GCA_003344945.1	282	273	181	85	7	9	3	6	0	100	32298781	379	4	12	48	402049	44098	38922	5176	185945
+GCA_009761105.1	523	523	365	141	17	0	0	0	0	110	33623479	491	0	2	27	633804	72354	63633	8721	275192
+GCA_012275225.1	429	429	210	198	21	0	0	0	0	203	28777884	371	0	6	28	383450	42373	37529	4844	165268
+GCA_012365075.1	186	186	18	164	4	0	0	0	0	143	9292459	154	0	0	16	13846	1685	1274	411	21807
+GCA_023718355.1	298	298	200	84	14	0	0	0	0	87	31937031	358	0	0	10	399381	43924	38824	5100	176522
+GCA_030015405.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

@@ -1,0 +1,27 @@
+# BUSCO version is: 5.4.3 
+# The lineage dataset is: eurotiales_odb10 (Creation date: 2020-08-05, number of genomes: 60, number of BUSCOs: 4191)
+# Summarized benchmarking in BUSCO notation for file GCA_030015405.1.faa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:94.4%[S:94.2%,D:0.2%],F:1.5%,M:4.1%,n:4191	   
+	3957	Complete BUSCOs (C)			   
+	3949	Complete and single-copy BUSCOs (S)	   
+	8	Complete and duplicated BUSCOs (D)	   
+	61	Fragmented BUSCOs (F)			   
+	173	Missing BUSCOs (M)			   
+	4191	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	busco: 5.4.3
+	sepp: 4.5.1
+
+Placement file versions:
+	list_of_reference_markers.eukaryota_odb10.2019-12-16.txt
+	tree.eukaryota_odb10.2019-12-16.nwk
+	tree_metadata.eukaryota_odb10.2019-12-16.txt
+	supermatrix.aln.eukaryota_odb10.2019-12-16.faa
+	mapping_taxids-busco_dataset_name.eukaryota_odb10.2019-12-16.txt
+	mapping_taxid-lineage.eukaryota_odb10.2019-12-16.txt

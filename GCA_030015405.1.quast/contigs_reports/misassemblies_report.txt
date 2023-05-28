@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     GCA_003344945.1  GCA_009761105.1  GCA_012275225.1  GCA_012365075.1  GCA_023718355.1  GCA_030015405.1
+# misassemblies              282              523              429              186              298              0              
+  # contig misassemblies     273              523              429              186              298              0              
+    # c. relocations         181              365              210              18               200              0              
+    # c. translocations      85               141              198              164              84               0              
+    # c. inversions          7                17               21               4                14               0              
+  # scaffold misassemblies   9                0                0                0                0                0              
+    # s. relocations         3                0                0                0                0                0              
+    # s. translocations      6                0                0                0                0                0              
+    # s. inversions          0                0                0                0                0                0              
+# misassembled contigs       100              110              203              143              87               0              
+Misassembled contigs length  32298781         33623479         28777884         9292459          31937031         0              
+# local misassemblies        379              491              371              154              358              0              
+# scaffold gap ext. mis.     4                0                0                0                0                0              
+# scaffold gap loc. mis.     12               2                6                0                0                0              
+# unaligned mis. contigs     48               27               28               16               10               0              
+# mismatches                 402049           633804           383450           13846            399381           0              
+# indels                     44098            72354            42373            1685             43924            0              
+    # indels (<= 5 bp)       38922            63633            37529            1274             38824            0              
+    # indels (> 5 bp)        5176             8721             4844             411              5100             0              
+Indels length                185945           275192           165268           21807            176522           0              

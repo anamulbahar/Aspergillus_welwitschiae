@@ -1,0 +1,10 @@
+[M::mm_idx_gen::1.132*1.00] collected minimizers
+[M::mm_idx_gen::1.266*1.53] sorted minimizers
+[M::main::1.266*1.53] loaded/built the index for 340 target sequence(s)
+[M::mm_mapopt_update::1.345*1.50] mid_occ = 200
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 340
+[M::mm_idx_stat::1.401*1.48] distinct minimizers: 3727835 (99.25% are singletons); average occurrences: 1.015; average spacing: 9.990; total length: 37795174
+[M::worker_pipeline::5.783*4.52] mapped 396 sequences
+[M::main] Version: 2.24-r1122
+[M::main] CMD: /root/.conda/envs/quast/bin/minimap2 -c -x asm10 -B5 -O4,16 --no-long-join -r 200 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 6 /root/.local/ax/quast/quast_corrected_input/GCA_030015405.1.fa /root/.local/ax/quast/quast_corrected_input/GCA_003344945-1.fa
+[M::main] Real time: 5.814 sec; CPU: 26.162 sec; Peak RSS: 0.460 GB
